@@ -13,6 +13,12 @@
 		19850E6B1BF8D0500000695E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19850E6A1BF8D0500000695E /* Images.xcassets */; };
 		19850E6E1BF8D0500000695E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19850E6C1BF8D0500000695E /* LaunchScreen.xib */; };
 		19850E7A1BF8D0500000695E /* Animation_StarterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19850E791BF8D0500000695E /* Animation_StarterTests.swift */; };
+		19850E8B1BF8D2100000695E /* ArcLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19850E851BF8D2100000695E /* ArcLayer.swift */; };
+		19850E8C1BF8D2100000695E /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19850E861BF8D2100000695E /* Colors.swift */; };
+		19850E8D1BF8D2100000695E /* HolderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19850E871BF8D2100000695E /* HolderView.swift */; };
+		19850E8E1BF8D2100000695E /* OvalLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19850E881BF8D2100000695E /* OvalLayer.swift */; };
+		19850E8F1BF8D2100000695E /* RectangleLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19850E891BF8D2100000695E /* RectangleLayer.swift */; };
+		19850E901BF8D2100000695E /* TriangleLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19850E8A1BF8D2100000695E /* TriangleLayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,12 @@
 		19850E731BF8D0500000695E /* Animation StarterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Animation StarterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		19850E781BF8D0500000695E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		19850E791BF8D0500000695E /* Animation_StarterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation_StarterTests.swift; sourceTree = "<group>"; };
+		19850E851BF8D2100000695E /* ArcLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArcLayer.swift; sourceTree = "<group>"; };
+		19850E861BF8D2100000695E /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		19850E871BF8D2100000695E /* HolderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HolderView.swift; sourceTree = "<group>"; };
+		19850E881BF8D2100000695E /* OvalLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OvalLayer.swift; sourceTree = "<group>"; };
+		19850E891BF8D2100000695E /* RectangleLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RectangleLayer.swift; sourceTree = "<group>"; };
+		19850E8A1BF8D2100000695E /* TriangleLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TriangleLayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +91,8 @@
 			children = (
 				19850E631BF8D0500000695E /* AppDelegate.swift */,
 				19850E651BF8D0500000695E /* ViewController.swift */,
+				19850E911BF8D2EB0000695E /* Stater View */,
+				19850E861BF8D2100000695E /* Colors.swift */,
 				19850E671BF8D0500000695E /* Main.storyboard */,
 				19850E6A1BF8D0500000695E /* Images.xcassets */,
 				19850E6C1BF8D0500000695E /* LaunchScreen.xib */,
@@ -110,6 +124,26 @@
 				19850E781BF8D0500000695E /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		19850E911BF8D2EB0000695E /* Stater View */ = {
+			isa = PBXGroup;
+			children = (
+				19850E921BF8D3180000695E /* Layers */,
+				19850E871BF8D2100000695E /* HolderView.swift */,
+			);
+			name = "Stater View";
+			sourceTree = "<group>";
+		};
+		19850E921BF8D3180000695E /* Layers */ = {
+			isa = PBXGroup;
+			children = (
+				19850E851BF8D2100000695E /* ArcLayer.swift */,
+				19850E881BF8D2100000695E /* OvalLayer.swift */,
+				19850E891BF8D2100000695E /* RectangleLayer.swift */,
+				19850E8A1BF8D2100000695E /* TriangleLayer.swift */,
+			);
+			name = Layers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,8 +246,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19850E8B1BF8D2100000695E /* ArcLayer.swift in Sources */,
+				19850E901BF8D2100000695E /* TriangleLayer.swift in Sources */,
+				19850E8C1BF8D2100000695E /* Colors.swift in Sources */,
+				19850E8F1BF8D2100000695E /* RectangleLayer.swift in Sources */,
+				19850E8D1BF8D2100000695E /* HolderView.swift in Sources */,
 				19850E661BF8D0500000695E /* ViewController.swift in Sources */,
 				19850E641BF8D0500000695E /* AppDelegate.swift in Sources */,
+				19850E8E1BF8D2100000695E /* OvalLayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
