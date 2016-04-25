@@ -190,6 +190,8 @@
 		19850E561BF8D0500000695E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0720;
+				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = Jiong;
 				TargetAttributes = {
@@ -451,6 +453,7 @@
 				19850E7F1BF8D0500000695E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		19850E801BF8D0500000695E /* Build configuration list for PBXNativeTarget "Animation StarterTests" */ = {
 			isa = XCConfigurationList;
@@ -459,6 +462,7 @@
 				19850E821BF8D0500000695E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

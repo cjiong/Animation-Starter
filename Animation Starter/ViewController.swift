@@ -43,7 +43,7 @@ class ViewController: UIViewController, HolderViewDelegate {
         view.backgroundColor = Colors.blue
         
         // 2
-        var label: UILabel = UILabel(frame: view.frame)
+        let label: UILabel = UILabel(frame: view.frame)
         label.textColor = Colors.white
         label.font = UIFont(name: "HelveticaNeue-Thin", size: 170.0)
         label.textAlignment = NSTextAlignment.Center
